@@ -1,4 +1,8 @@
-*{
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+ /* *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -42,7 +46,6 @@ nav a{
 nav a:hover{
   text-decoration: underline;
 }
-/* footer */
 
 footer{
   background-color: #222;
@@ -54,7 +57,7 @@ footer p{
   margin: 0;
 }
 
-/* Home Page */
+
 
 .hero{
   background-size:cover ;
@@ -88,4 +91,4 @@ footer p{
 }
 .hero button:hover{
   background-color: #005bb5;
-}
+} */

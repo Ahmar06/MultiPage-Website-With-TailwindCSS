@@ -3,16 +3,16 @@ import React from "react";
 
 const Header = () => {
   return (
-    <div className="header">
-      <h1 className="logo">Watch World</h1>
-      <nav>
-        <Link href="/">Home</Link>
-        <Link href="/about">About</Link>
-        <Link href="/contact">Contact</Link>
+    <div className="bg-blue-500 text-white py-5 flex justify-between items-center px-10 relative z-10">
+      <h1 className="text-2xl font-bold">Watch World</h1>
+      <nav className="gap-10 text-white font-bold flex">
+        <Link href="/" className="hover:underline">Home</Link>
+        <Link href="/about" className="hover:underline">About</Link>
+        <Link href="/contact" className="hover:underline">Contact</Link>
       </nav>
-      <div className="login">  
-      <h4>Login</h4>
-      <h4>SignUp</h4>
+      <div className="text-white text-xl flex gap-3">  
+      <h4 className="hover:underline">Login</h4>
+      <h4 className="hover:underline">SignUp</h4>
       </div>
     </div>
   );
